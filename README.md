@@ -1,3 +1,21 @@
+<p>Логика обработки банковского уведомления о статусе операции в modules\v1\*</p>
+<p>Url на который банк будет отправлять уведомления POST http://урл.для.фронтенд/v1/callback</p>
+<p>Пример успешного запроса</p>
+
+```
+{
+  "qrcId": "AD10001AL4IS0OVC9PJ835DTSHDNT9D2",
+  "trxId": "B1092111235362010000141FC7C19FDE",
+  "amount": 20000,
+  "operationId": 84214897,
+  "status": "completed",
+  "operationTimestamp": "2021-03-23T14:12:35.0830000+03:00",
+  "paymentData": {
+		"account": "lanta-1"
+	}
+}
+```
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
